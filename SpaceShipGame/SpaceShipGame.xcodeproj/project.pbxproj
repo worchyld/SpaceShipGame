@@ -14,6 +14,7 @@
 		4D27E2712C8A2EBE00F5E543 /* SpaceShipGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D27E2702C8A2EBE00F5E543 /* SpaceShipGameTests.swift */; };
 		4D27E27B2C8A2EBE00F5E543 /* SpaceShipGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D27E27A2C8A2EBE00F5E543 /* SpaceShipGameUITests.swift */; };
 		4D27E27D2C8A2EBE00F5E543 /* SpaceShipGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D27E27C2C8A2EBE00F5E543 /* SpaceShipGameUITestsLaunchTests.swift */; };
+		4D27E28A2C8A2EDB00F5E543 /* laserShoot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D27E2892C8A2EDB00F5E543 /* laserShoot.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4D27E2762C8A2EBE00F5E543 /* SpaceShipGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceShipGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D27E27A2C8A2EBE00F5E543 /* SpaceShipGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShipGameUITests.swift; sourceTree = "<group>"; };
 		4D27E27C2C8A2EBE00F5E543 /* SpaceShipGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShipGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D27E2892C8A2EDB00F5E543 /* laserShoot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = laserShoot.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		4D27E25E2C8A2EBD00F5E543 /* SpaceShipGame */ = {
 			isa = PBXGroup;
 			children = (
+				4D27E2892C8A2EDB00F5E543 /* laserShoot.wav */,
 				4D27E25F2C8A2EBD00F5E543 /* SpaceShipGameApp.swift */,
 				4D27E2612C8A2EBD00F5E543 /* ContentView.swift */,
 				4D27E2632C8A2EBE00F5E543 /* Assets.xcassets */,
@@ -233,6 +236,7 @@
 			files = (
 				4D27E2672C8A2EBE00F5E543 /* Preview Assets.xcassets in Resources */,
 				4D27E2642C8A2EBE00F5E543 /* Assets.xcassets in Resources */,
+				4D27E28A2C8A2EDB00F5E543 /* laserShoot.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +432,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +440,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.silentflute.SpaceShipGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,8 +463,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +471,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.silentflute.SpaceShipGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
