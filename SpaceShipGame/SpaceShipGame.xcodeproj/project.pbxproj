@@ -7,69 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D7719F92C8A268B00EE38C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7719F82C8A268B00EE38C0 /* AppDelegate.swift */; };
-		4D7719FB2C8A268B00EE38C0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D7719FA2C8A268B00EE38C0 /* GameScene.sks */; };
-		4D7719FD2C8A268B00EE38C0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D7719FC2C8A268B00EE38C0 /* Actions.sks */; };
-		4D7719FF2C8A268B00EE38C0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7719FE2C8A268B00EE38C0 /* GameScene.swift */; };
-		4D771A012C8A268B00EE38C0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D771A002C8A268B00EE38C0 /* GameViewController.swift */; };
-		4D771A042C8A268B00EE38C0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4D771A032C8A268B00EE38C0 /* Base */; };
-		4D771A062C8A268C00EE38C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D771A052C8A268C00EE38C0 /* Assets.xcassets */; };
-		4D771A092C8A268C00EE38C0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4D771A082C8A268C00EE38C0 /* Base */; };
-		4D771A132C8A268C00EE38C0 /* SpaceShipGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D771A122C8A268C00EE38C0 /* SpaceShipGameTests.swift */; };
-		4D771A1D2C8A268C00EE38C0 /* SpaceShipGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D771A1C2C8A268C00EE38C0 /* SpaceShipGameUITests.swift */; };
-		4D771A1F2C8A268C00EE38C0 /* SpaceShipGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D771A1E2C8A268C00EE38C0 /* SpaceShipGameUITestsLaunchTests.swift */; };
+		4D27E2602C8A2EBD00F5E543 /* SpaceShipGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D27E25F2C8A2EBD00F5E543 /* SpaceShipGameApp.swift */; };
+		4D27E2622C8A2EBD00F5E543 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D27E2612C8A2EBD00F5E543 /* ContentView.swift */; };
+		4D27E2642C8A2EBE00F5E543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D27E2632C8A2EBE00F5E543 /* Assets.xcassets */; };
+		4D27E2672C8A2EBE00F5E543 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D27E2662C8A2EBE00F5E543 /* Preview Assets.xcassets */; };
+		4D27E2712C8A2EBE00F5E543 /* SpaceShipGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D27E2702C8A2EBE00F5E543 /* SpaceShipGameTests.swift */; };
+		4D27E27B2C8A2EBE00F5E543 /* SpaceShipGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D27E27A2C8A2EBE00F5E543 /* SpaceShipGameUITests.swift */; };
+		4D27E27D2C8A2EBE00F5E543 /* SpaceShipGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D27E27C2C8A2EBE00F5E543 /* SpaceShipGameUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4D771A0F2C8A268C00EE38C0 /* PBXContainerItemProxy */ = {
+		4D27E26D2C8A2EBE00F5E543 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4D7719ED2C8A268B00EE38C0 /* Project object */;
+			containerPortal = 4D27E2542C8A2EBD00F5E543 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D7719F42C8A268B00EE38C0;
+			remoteGlobalIDString = 4D27E25B2C8A2EBD00F5E543;
 			remoteInfo = SpaceShipGame;
 		};
-		4D771A192C8A268C00EE38C0 /* PBXContainerItemProxy */ = {
+		4D27E2772C8A2EBE00F5E543 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4D7719ED2C8A268B00EE38C0 /* Project object */;
+			containerPortal = 4D27E2542C8A2EBD00F5E543 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D7719F42C8A268B00EE38C0;
+			remoteGlobalIDString = 4D27E25B2C8A2EBD00F5E543;
 			remoteInfo = SpaceShipGame;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D7719F52C8A268B00EE38C0 /* SpaceShipGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceShipGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D7719F82C8A268B00EE38C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D7719FA2C8A268B00EE38C0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4D7719FC2C8A268B00EE38C0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		4D7719FE2C8A268B00EE38C0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		4D771A002C8A268B00EE38C0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		4D771A032C8A268B00EE38C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D771A052C8A268C00EE38C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D771A082C8A268C00EE38C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4D771A0E2C8A268C00EE38C0 /* SpaceShipGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceShipGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D771A122C8A268C00EE38C0 /* SpaceShipGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShipGameTests.swift; sourceTree = "<group>"; };
-		4D771A182C8A268C00EE38C0 /* SpaceShipGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceShipGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D771A1C2C8A268C00EE38C0 /* SpaceShipGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShipGameUITests.swift; sourceTree = "<group>"; };
-		4D771A1E2C8A268C00EE38C0 /* SpaceShipGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShipGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D27E25C2C8A2EBD00F5E543 /* SpaceShipGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceShipGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D27E25F2C8A2EBD00F5E543 /* SpaceShipGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShipGameApp.swift; sourceTree = "<group>"; };
+		4D27E2612C8A2EBD00F5E543 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D27E2632C8A2EBE00F5E543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D27E2662C8A2EBE00F5E543 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D27E26C2C8A2EBE00F5E543 /* SpaceShipGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceShipGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D27E2702C8A2EBE00F5E543 /* SpaceShipGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShipGameTests.swift; sourceTree = "<group>"; };
+		4D27E2762C8A2EBE00F5E543 /* SpaceShipGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceShipGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D27E27A2C8A2EBE00F5E543 /* SpaceShipGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShipGameUITests.swift; sourceTree = "<group>"; };
+		4D27E27C2C8A2EBE00F5E543 /* SpaceShipGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShipGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D7719F22C8A268B00EE38C0 /* Frameworks */ = {
+		4D27E2592C8A2EBD00F5E543 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D771A0B2C8A268C00EE38C0 /* Frameworks */ = {
+		4D27E2692C8A2EBE00F5E543 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D771A152C8A268C00EE38C0 /* Frameworks */ = {
+		4D27E2732C8A2EBE00F5E543 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,54 +71,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D7719EC2C8A268B00EE38C0 = {
+		4D27E2532C8A2EBD00F5E543 = {
 			isa = PBXGroup;
 			children = (
-				4D7719F72C8A268B00EE38C0 /* SpaceShipGame */,
-				4D771A112C8A268C00EE38C0 /* SpaceShipGameTests */,
-				4D771A1B2C8A268C00EE38C0 /* SpaceShipGameUITests */,
-				4D7719F62C8A268B00EE38C0 /* Products */,
+				4D27E25E2C8A2EBD00F5E543 /* SpaceShipGame */,
+				4D27E26F2C8A2EBE00F5E543 /* SpaceShipGameTests */,
+				4D27E2792C8A2EBE00F5E543 /* SpaceShipGameUITests */,
+				4D27E25D2C8A2EBD00F5E543 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4D7719F62C8A268B00EE38C0 /* Products */ = {
+		4D27E25D2C8A2EBD00F5E543 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D7719F52C8A268B00EE38C0 /* SpaceShipGame.app */,
-				4D771A0E2C8A268C00EE38C0 /* SpaceShipGameTests.xctest */,
-				4D771A182C8A268C00EE38C0 /* SpaceShipGameUITests.xctest */,
+				4D27E25C2C8A2EBD00F5E543 /* SpaceShipGame.app */,
+				4D27E26C2C8A2EBE00F5E543 /* SpaceShipGameTests.xctest */,
+				4D27E2762C8A2EBE00F5E543 /* SpaceShipGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D7719F72C8A268B00EE38C0 /* SpaceShipGame */ = {
+		4D27E25E2C8A2EBD00F5E543 /* SpaceShipGame */ = {
 			isa = PBXGroup;
 			children = (
-				4D7719F82C8A268B00EE38C0 /* AppDelegate.swift */,
-				4D7719FA2C8A268B00EE38C0 /* GameScene.sks */,
-				4D7719FC2C8A268B00EE38C0 /* Actions.sks */,
-				4D7719FE2C8A268B00EE38C0 /* GameScene.swift */,
-				4D771A002C8A268B00EE38C0 /* GameViewController.swift */,
-				4D771A022C8A268B00EE38C0 /* Main.storyboard */,
-				4D771A052C8A268C00EE38C0 /* Assets.xcassets */,
-				4D771A072C8A268C00EE38C0 /* LaunchScreen.storyboard */,
+				4D27E25F2C8A2EBD00F5E543 /* SpaceShipGameApp.swift */,
+				4D27E2612C8A2EBD00F5E543 /* ContentView.swift */,
+				4D27E2632C8A2EBE00F5E543 /* Assets.xcassets */,
+				4D27E2652C8A2EBE00F5E543 /* Preview Content */,
 			);
 			path = SpaceShipGame;
 			sourceTree = "<group>";
 		};
-		4D771A112C8A268C00EE38C0 /* SpaceShipGameTests */ = {
+		4D27E2652C8A2EBE00F5E543 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4D771A122C8A268C00EE38C0 /* SpaceShipGameTests.swift */,
+				4D27E2662C8A2EBE00F5E543 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D27E26F2C8A2EBE00F5E543 /* SpaceShipGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D27E2702C8A2EBE00F5E543 /* SpaceShipGameTests.swift */,
 			);
 			path = SpaceShipGameTests;
 			sourceTree = "<group>";
 		};
-		4D771A1B2C8A268C00EE38C0 /* SpaceShipGameUITests */ = {
+		4D27E2792C8A2EBE00F5E543 /* SpaceShipGameUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4D771A1C2C8A268C00EE38C0 /* SpaceShipGameUITests.swift */,
-				4D771A1E2C8A268C00EE38C0 /* SpaceShipGameUITestsLaunchTests.swift */,
+				4D27E27A2C8A2EBE00F5E543 /* SpaceShipGameUITests.swift */,
+				4D27E27C2C8A2EBE00F5E543 /* SpaceShipGameUITestsLaunchTests.swift */,
 			);
 			path = SpaceShipGameUITests;
 			sourceTree = "<group>";
@@ -134,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D7719F42C8A268B00EE38C0 /* SpaceShipGame */ = {
+		4D27E25B2C8A2EBD00F5E543 /* SpaceShipGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D771A222C8A268C00EE38C0 /* Build configuration list for PBXNativeTarget "SpaceShipGame" */;
+			buildConfigurationList = 4D27E2802C8A2EBE00F5E543 /* Build configuration list for PBXNativeTarget "SpaceShipGame" */;
 			buildPhases = (
-				4D7719F12C8A268B00EE38C0 /* Sources */,
-				4D7719F22C8A268B00EE38C0 /* Frameworks */,
-				4D7719F32C8A268B00EE38C0 /* Resources */,
+				4D27E2582C8A2EBD00F5E543 /* Sources */,
+				4D27E2592C8A2EBD00F5E543 /* Frameworks */,
+				4D27E25A2C8A2EBD00F5E543 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,69 +144,69 @@
 			);
 			name = SpaceShipGame;
 			productName = SpaceShipGame;
-			productReference = 4D7719F52C8A268B00EE38C0 /* SpaceShipGame.app */;
+			productReference = 4D27E25C2C8A2EBD00F5E543 /* SpaceShipGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4D771A0D2C8A268C00EE38C0 /* SpaceShipGameTests */ = {
+		4D27E26B2C8A2EBE00F5E543 /* SpaceShipGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D771A252C8A268C00EE38C0 /* Build configuration list for PBXNativeTarget "SpaceShipGameTests" */;
+			buildConfigurationList = 4D27E2832C8A2EBE00F5E543 /* Build configuration list for PBXNativeTarget "SpaceShipGameTests" */;
 			buildPhases = (
-				4D771A0A2C8A268C00EE38C0 /* Sources */,
-				4D771A0B2C8A268C00EE38C0 /* Frameworks */,
-				4D771A0C2C8A268C00EE38C0 /* Resources */,
+				4D27E2682C8A2EBE00F5E543 /* Sources */,
+				4D27E2692C8A2EBE00F5E543 /* Frameworks */,
+				4D27E26A2C8A2EBE00F5E543 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4D771A102C8A268C00EE38C0 /* PBXTargetDependency */,
+				4D27E26E2C8A2EBE00F5E543 /* PBXTargetDependency */,
 			);
 			name = SpaceShipGameTests;
 			productName = SpaceShipGameTests;
-			productReference = 4D771A0E2C8A268C00EE38C0 /* SpaceShipGameTests.xctest */;
+			productReference = 4D27E26C2C8A2EBE00F5E543 /* SpaceShipGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4D771A172C8A268C00EE38C0 /* SpaceShipGameUITests */ = {
+		4D27E2752C8A2EBE00F5E543 /* SpaceShipGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D771A282C8A268C00EE38C0 /* Build configuration list for PBXNativeTarget "SpaceShipGameUITests" */;
+			buildConfigurationList = 4D27E2862C8A2EBE00F5E543 /* Build configuration list for PBXNativeTarget "SpaceShipGameUITests" */;
 			buildPhases = (
-				4D771A142C8A268C00EE38C0 /* Sources */,
-				4D771A152C8A268C00EE38C0 /* Frameworks */,
-				4D771A162C8A268C00EE38C0 /* Resources */,
+				4D27E2722C8A2EBE00F5E543 /* Sources */,
+				4D27E2732C8A2EBE00F5E543 /* Frameworks */,
+				4D27E2742C8A2EBE00F5E543 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4D771A1A2C8A268C00EE38C0 /* PBXTargetDependency */,
+				4D27E2782C8A2EBE00F5E543 /* PBXTargetDependency */,
 			);
 			name = SpaceShipGameUITests;
 			productName = SpaceShipGameUITests;
-			productReference = 4D771A182C8A268C00EE38C0 /* SpaceShipGameUITests.xctest */;
+			productReference = 4D27E2762C8A2EBE00F5E543 /* SpaceShipGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4D7719ED2C8A268B00EE38C0 /* Project object */ = {
+		4D27E2542C8A2EBD00F5E543 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					4D7719F42C8A268B00EE38C0 = {
+					4D27E25B2C8A2EBD00F5E543 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					4D771A0D2C8A268C00EE38C0 = {
+					4D27E26B2C8A2EBE00F5E543 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 4D7719F42C8A268B00EE38C0;
+						TestTargetID = 4D27E25B2C8A2EBD00F5E543;
 					};
-					4D771A172C8A268C00EE38C0 = {
+					4D27E2752C8A2EBE00F5E543 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 4D7719F42C8A268B00EE38C0;
+						TestTargetID = 4D27E25B2C8A2EBD00F5E543;
 					};
 				};
 			};
-			buildConfigurationList = 4D7719F02C8A268B00EE38C0 /* Build configuration list for PBXProject "SpaceShipGame" */;
+			buildConfigurationList = 4D27E2572C8A2EBD00F5E543 /* Build configuration list for PBXProject "SpaceShipGame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,39 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 4D7719EC2C8A268B00EE38C0;
-			productRefGroup = 4D7719F62C8A268B00EE38C0 /* Products */;
+			mainGroup = 4D27E2532C8A2EBD00F5E543;
+			productRefGroup = 4D27E25D2C8A2EBD00F5E543 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D7719F42C8A268B00EE38C0 /* SpaceShipGame */,
-				4D771A0D2C8A268C00EE38C0 /* SpaceShipGameTests */,
-				4D771A172C8A268C00EE38C0 /* SpaceShipGameUITests */,
+				4D27E25B2C8A2EBD00F5E543 /* SpaceShipGame */,
+				4D27E26B2C8A2EBE00F5E543 /* SpaceShipGameTests */,
+				4D27E2752C8A2EBE00F5E543 /* SpaceShipGameUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4D7719F32C8A268B00EE38C0 /* Resources */ = {
+		4D27E25A2C8A2EBD00F5E543 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D7719FB2C8A268B00EE38C0 /* GameScene.sks in Resources */,
-				4D771A042C8A268B00EE38C0 /* Base in Resources */,
-				4D771A062C8A268C00EE38C0 /* Assets.xcassets in Resources */,
-				4D7719FD2C8A268B00EE38C0 /* Actions.sks in Resources */,
-				4D771A092C8A268C00EE38C0 /* Base in Resources */,
+				4D27E2672C8A2EBE00F5E543 /* Preview Assets.xcassets in Resources */,
+				4D27E2642C8A2EBE00F5E543 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D771A0C2C8A268C00EE38C0 /* Resources */ = {
+		4D27E26A2C8A2EBE00F5E543 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D771A162C8A268C00EE38C0 /* Resources */ = {
+		4D27E2742C8A2EBE00F5E543 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,69 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D7719F12C8A268B00EE38C0 /* Sources */ = {
+		4D27E2582C8A2EBD00F5E543 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D7719FF2C8A268B00EE38C0 /* GameScene.swift in Sources */,
-				4D771A012C8A268B00EE38C0 /* GameViewController.swift in Sources */,
-				4D7719F92C8A268B00EE38C0 /* AppDelegate.swift in Sources */,
+				4D27E2622C8A2EBD00F5E543 /* ContentView.swift in Sources */,
+				4D27E2602C8A2EBD00F5E543 /* SpaceShipGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D771A0A2C8A268C00EE38C0 /* Sources */ = {
+		4D27E2682C8A2EBE00F5E543 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D771A132C8A268C00EE38C0 /* SpaceShipGameTests.swift in Sources */,
+				4D27E2712C8A2EBE00F5E543 /* SpaceShipGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D771A142C8A268C00EE38C0 /* Sources */ = {
+		4D27E2722C8A2EBE00F5E543 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D771A1D2C8A268C00EE38C0 /* SpaceShipGameUITests.swift in Sources */,
-				4D771A1F2C8A268C00EE38C0 /* SpaceShipGameUITestsLaunchTests.swift in Sources */,
+				4D27E27B2C8A2EBE00F5E543 /* SpaceShipGameUITests.swift in Sources */,
+				4D27E27D2C8A2EBE00F5E543 /* SpaceShipGameUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4D771A102C8A268C00EE38C0 /* PBXTargetDependency */ = {
+		4D27E26E2C8A2EBE00F5E543 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4D7719F42C8A268B00EE38C0 /* SpaceShipGame */;
-			targetProxy = 4D771A0F2C8A268C00EE38C0 /* PBXContainerItemProxy */;
+			target = 4D27E25B2C8A2EBD00F5E543 /* SpaceShipGame */;
+			targetProxy = 4D27E26D2C8A2EBE00F5E543 /* PBXContainerItemProxy */;
 		};
-		4D771A1A2C8A268C00EE38C0 /* PBXTargetDependency */ = {
+		4D27E2782C8A2EBE00F5E543 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4D7719F42C8A268B00EE38C0 /* SpaceShipGame */;
-			targetProxy = 4D771A192C8A268C00EE38C0 /* PBXContainerItemProxy */;
+			target = 4D27E25B2C8A2EBD00F5E543 /* SpaceShipGame */;
+			targetProxy = 4D27E2772C8A2EBE00F5E543 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		4D771A022C8A268B00EE38C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D771A032C8A268B00EE38C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4D771A072C8A268C00EE38C0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D771A082C8A268C00EE38C0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		4D771A202C8A268C00EE38C0 /* Debug */ = {
+		4D27E27E2C8A2EBE00F5E543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -385,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		4D771A212C8A268C00EE38C0 /* Release */ = {
+		4D27E27F2C8A2EBE00F5E543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -441,19 +414,20 @@
 			};
 			name = Release;
 		};
-		4D771A232C8A268C00EE38C0 /* Debug */ = {
+		4D27E2812C8A2EBE00F5E543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpaceShipGame/Preview Content\"";
 				DEVELOPMENT_TEAM = A48R25Y4D5;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,19 +443,20 @@
 			};
 			name = Debug;
 		};
-		4D771A242C8A268C00EE38C0 /* Release */ = {
+		4D27E2822C8A2EBE00F5E543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpaceShipGame/Preview Content\"";
 				DEVELOPMENT_TEAM = A48R25Y4D5;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,7 +472,7 @@
 			};
 			name = Release;
 		};
-		4D771A262C8A268C00EE38C0 /* Debug */ = {
+		4D27E2842C8A2EBE00F5E543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,7 +492,7 @@
 			};
 			name = Debug;
 		};
-		4D771A272C8A268C00EE38C0 /* Release */ = {
+		4D27E2852C8A2EBE00F5E543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -537,7 +512,7 @@
 			};
 			name = Release;
 		};
-		4D771A292C8A268C00EE38C0 /* Debug */ = {
+		4D27E2872C8A2EBE00F5E543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,7 +530,7 @@
 			};
 			name = Debug;
 		};
-		4D771A2A2C8A268C00EE38C0 /* Release */ = {
+		4D27E2882C8A2EBE00F5E543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -576,43 +551,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D7719F02C8A268B00EE38C0 /* Build configuration list for PBXProject "SpaceShipGame" */ = {
+		4D27E2572C8A2EBD00F5E543 /* Build configuration list for PBXProject "SpaceShipGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D771A202C8A268C00EE38C0 /* Debug */,
-				4D771A212C8A268C00EE38C0 /* Release */,
+				4D27E27E2C8A2EBE00F5E543 /* Debug */,
+				4D27E27F2C8A2EBE00F5E543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D771A222C8A268C00EE38C0 /* Build configuration list for PBXNativeTarget "SpaceShipGame" */ = {
+		4D27E2802C8A2EBE00F5E543 /* Build configuration list for PBXNativeTarget "SpaceShipGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D771A232C8A268C00EE38C0 /* Debug */,
-				4D771A242C8A268C00EE38C0 /* Release */,
+				4D27E2812C8A2EBE00F5E543 /* Debug */,
+				4D27E2822C8A2EBE00F5E543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D771A252C8A268C00EE38C0 /* Build configuration list for PBXNativeTarget "SpaceShipGameTests" */ = {
+		4D27E2832C8A2EBE00F5E543 /* Build configuration list for PBXNativeTarget "SpaceShipGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D771A262C8A268C00EE38C0 /* Debug */,
-				4D771A272C8A268C00EE38C0 /* Release */,
+				4D27E2842C8A2EBE00F5E543 /* Debug */,
+				4D27E2852C8A2EBE00F5E543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D771A282C8A268C00EE38C0 /* Build configuration list for PBXNativeTarget "SpaceShipGameUITests" */ = {
+		4D27E2862C8A2EBE00F5E543 /* Build configuration list for PBXNativeTarget "SpaceShipGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D771A292C8A268C00EE38C0 /* Debug */,
-				4D771A2A2C8A268C00EE38C0 /* Release */,
+				4D27E2872C8A2EBE00F5E543 /* Debug */,
+				4D27E2882C8A2EBE00F5E543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4D7719ED2C8A268B00EE38C0 /* Project object */;
+	rootObject = 4D27E2542C8A2EBD00F5E543 /* Project object */;
 }
